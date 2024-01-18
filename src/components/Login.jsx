@@ -61,7 +61,7 @@ toast.success("Login successfully");
             }
         } catch (err) {
             if (!err?.response) {
-                toast.error('No Server Response');
+                toast.error(err);
             } else if (err.response?.status === 400) {
               toast.error('Missing Username or Password');
             } else if (err.response?.status === 401) {
