@@ -140,7 +140,11 @@ toast.success("Login successfully");
         ) : (
           <section>
             <div className="flex items-center justify-center h-screen  bg-teal-900">
-              
+              <img
+                src={moto}
+                alt="react logo"
+                className="w-2/3 max-w-xl absolute top-0 right-0"
+              />
 
               <div
                 className="absolute left-0 top-0 w-[700px] h-[700px] bg-no-repeat opacity-20 rounded-[65px]"
